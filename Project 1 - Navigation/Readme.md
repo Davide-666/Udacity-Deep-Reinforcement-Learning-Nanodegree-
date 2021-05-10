@@ -1,4 +1,4 @@
-In this project, Unity's rich environment is used to design, train, and evaluate a custom deep reinforcement learning algorithms for an agent navigating (and collecting bananas!) in a large, square world.
+In this project, Unity's rich environment is used to design, train, and evaluate a custotestedm deep reinforcement learning algorithms for an agent navigating (and collecting bananas!) in a large, square world.
 
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
 
@@ -11,3 +11,6 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 
+The main application is contained in the notebook Navigation.ipynb where the agent is trained and tested.
+
+You can read more about ML-Agents by perusing the GitHub repository (https://github.com/Unity-Technologies/ml-agents). The project environment is similar to, but not identical to the Banana Collector environment on the Unity ML-Agents GitHub page (https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#banana-collector)
