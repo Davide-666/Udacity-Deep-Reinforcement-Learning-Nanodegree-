@@ -34,7 +34,7 @@
  <p> The main application is the notebook Navigation-application&report.ipynb where the agent is trained and tested.</p>
  <p> The "main" algorithm implements a Deep Q-Network (DQN) to approximate the Q-function </p>
  <p> The application implements the following steps: </p>
- <p> 1) Import the Necessary Packages (including the support funcions contained in the files model.py and dqn_agent.py from the Deep Q-Network exercise <br>
+ <p> 1) Import the Necessary Packages (including the support funcions contained in the files model.py and agent.py from the Deep Q-Network exercise <br>
      2) Examine the State and Action Spaces <br>
      3) Train an agent using DQN <br>
      4) Plot the scores <br>
