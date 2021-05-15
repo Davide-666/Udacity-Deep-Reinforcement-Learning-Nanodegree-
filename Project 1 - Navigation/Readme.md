@@ -39,7 +39,20 @@
      3) Train an agent using DQN <br>
      4) Plot the scores <br>
  </p>
+<h3>Hyperparamenter</h3>
+<p> BUFFER_SIZE = int(1e5)  # replay buffer size <br>
+BATCH_SIZE = 64         # minibatch size <br>
+GAMMA = 0.99            # discount factor <br>
+TAU = 1e-3              # for soft update of target parameters <br>
+LR = 5e-4               # learning rate  <br>
+UPDATE_EVERY = 4        # how often to update the network <br></p>
  
+ <h3>DQN structure</h3>
+<p> DQN has the following structure: <br>
+1 - Fully collected layer, input dim 37, output dim 128. RELU activation <br>
+2 - Fully collected layer, input dim 128, output dim 64. RELU activation <br>
+3 - Fully collected layer, input dim 64, output dim 4 <br>
+ <br>
 <h3>What's next: 1) Implement Dueling and Double Deep Q-Network (DDQN) </h3>
 <h3>What's next: 2) Challenge: Learning from Pixels</h3>
 <p>After you have successfully completed the project, if you're looking for an additional challenge, you have come to the right place!  In the project, your agent learned from information such as its velocity, along with ray-based perception of objects around its forward direction.  A more challenging task would be to learn directly from pixels!</p>
