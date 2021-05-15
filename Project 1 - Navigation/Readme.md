@@ -31,7 +31,7 @@
 </li>
 </ol>
 <h3>Instructions</h3>
- <p> The main application is the notebook Navigation-application&report.ipynb </p>
+ <p> The main application is the notebook Navigation-application&report.ipynb where the agent is trained and tested.</p>
  <p> The "main" algorithm implements a Deep Q-Network (DQN) to approximate the Q-function </p>
  <p> The application implements the following steps: </p>
  <p> 1) Import the Necessary Packages (including the support funcions contained in the files model.py and dqn_agent.py from the Deep Q-Network exercise <br>
@@ -68,5 +68,8 @@ UPDATE_EVERY = 4        # how often to update the network <br></p>
 <p>(<em>For AWS</em>) If you'd like to train the agent on AWS, you must follow the instructions to <a href="https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md">set up X Server</a>, and then download the environment for the <strong>Linux</strong> operating system above.</p>
 </article>
   </div>  
+  <p> You can read more about ML-Agents by perusing the GitHub repository (https://github.com/Unity-Technologies/ml-agents). The project environment is similar to, but not identical to the Banana Collector environment on the Unity ML-Agents GitHub page (https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#banana-collector)</p>
+
+  
   </body>
 </html>
