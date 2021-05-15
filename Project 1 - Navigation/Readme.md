@@ -49,8 +49,8 @@ UPDATE_EVERY = 4        # how often to update the network <br></p>
  
  <h3>DQN structure</h3>
 <p> DQN has the following structure: <br>
-1 - Fully collected layer, input dim 37, output dim 128. RELU activation <br>
-2 - Fully collected layer, input dim 128, output dim 64. RELU activation <br>
+1 - Fully collected layer, input dim 37, output dim 64. RELU activation <br>
+2 - Fully collected layer, input dim 64, output dim 64. RELU activation <br>
 3 - Fully collected layer, input dim 64, output dim 4 <br>
  <br>
 <h3>What's next: 1) Implement Dueling and Double Deep Q-Network (DDQN) </h3>
